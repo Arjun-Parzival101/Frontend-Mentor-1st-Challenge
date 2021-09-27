@@ -1,0 +1,243 @@
+/*********Top Section*************/
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    /* width: 100%; */
+    /* margin: auto; */
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    width: 100%;
+    margin: 0%;
+    font-size: 2.1rem;
+}
+
+.header p {
+    width: 37%;
+    font-size: 1rem;
+    margin: 1% auto 0%;
+}
+
+.heading1 {
+    font-weight: 200;
+}
+
+.heading2,
+.heading3 {
+    font-weight: 600;
+}
+
+
+/**Para Color**/
+
+.para {
+    color: hsl(229, 6%, 66%);
+}
+
+
+/***********Main Section************/
+
+.all {
+    width: 100%;
+    margin: 5.8% auto;
+    margin-bottom: 1%;
+}
+
+
+/******Row*******/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.row h3 {
+    font-size: 1.1rem;
+}
+
+.row p {
+    font-size: 0.8rem;
+    margin-top: 5%;
+}
+
+
+/********Row 1 & Row2*******/
+
+.row1,
+.row2 {
+    background-color: #fff;
+    border-top: solid 0.3rem;
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px 1px lightgrey;
+    padding: 2.5%;
+}
+
+
+/*****Row1*****/
+
+.row1 {
+    border-color: hsl(180, 62%, 55%);
+    margin-right: 3%;
+    width: 33%;
+}
+
+
+/*****Row2*****/
+
+.row2 {
+    border-color: hsl(212, 86%, 64%);
+    margin-left: 3%;
+    width: 33%;
+}
+
+
+/********Column********/
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 39%;
+}
+
+
+/*******Column1, Column2********/
+
+.column1,
+.column2 {
+    background-color: #fff;
+    border-top: solid 0.3rem;
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px 1px lightgrey;
+    padding: 7.5%;
+}
+
+
+/******Column1******/
+
+.column1 {
+    border-color: hsl(0, 78%, 62%);
+    margin-bottom: 9%;
+}
+
+
+/******Column2******/
+
+.column2 {
+    border-color: hsl(34, 97%, 64%);
+}
+
+
+/**********Images*********/
+
+img {
+    width: 22%;
+}
+
+.images {
+    margin-top: 8%;
+    text-align: right;
+}
+
+
+/***Margin Changes in Row Flex-items***/
+
+.row h3,
+p,
+img {
+    margin: 0%;
+}
+
+
+/***********Footer*************/
+
+
+/***********************Media Query************************/
+
+@media (max-width: 960px) {
+    /*************top section*************/
+    .header {
+        margin: 80px 40px 0px 40px;
+    }
+    .header h1 {
+        font-size: 1.25rem;
+    }
+    .header p {
+        font-size: 0.80rem;
+        width: auto;
+        max-width: 355px;
+        margin: 4% auto 0%;
+        text-align: justify;
+    }
+    /***************row******************/
+    .row {
+        width: auto;
+        max-width: 375px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .row1,
+    .row2 {
+        padding: 5%;
+    }
+    /***************row1****************/
+    .row1 {
+        width: auto;
+        margin: 60px 20px 0px 20px;
+    }
+    .row1 h3 {
+        font-size: 1rem;
+    }
+    .row1 p {
+        font-size: 0.75rem;
+    }
+    /*************row2***************/
+    .row2 {
+        width: auto;
+        max-width: 278px;
+        margin: 0px 20px 80px 20px;
+    }
+    .row2 h3 {
+        font-size: 1rem;
+    }
+    .row2 p {
+        font-size: 0.75rem;
+    }
+    /************column***********/
+    .column {
+        width: auto;
+        margin: 20px;
+        max-width: 315px;
+    }
+    /***********column1************/
+    .column1 {
+        margin-bottom: 20px;
+    }
+    .column1 h3 {
+        font-size: 1rem;
+    }
+    .column1 p {
+        font-size: 0.75rem;
+    }
+    /***********column2************/
+    .column2 h3 {
+        font-size: 1rem;
+    }
+    .column2 p {
+        font-size: 0.75rem;
+    }
+}
+
+
+/**********************END***********************/
